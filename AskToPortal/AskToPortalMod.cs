@@ -82,7 +82,7 @@ namespace AskToPortal
             if (!ShouldCheckUserPortal(dropper, photonView == null))
                 return true;
 
-            string roomId = __instance.field_Private_String_1;
+            string roomId = __instance.field_Private_String_4;
             string worldId = __instance.field_Private_ApiWorld_0.id;
             int roomPop = __instance.field_Private_Int32_0;
 

@@ -100,7 +100,7 @@ namespace AskToPortal
                 if (ParseAmbiguousTag(tempTag) == "nonce")
                 {
                     if (region == null)
-                        region = "US";
+                        region = "US-West";
                     else
                         errors.Add("Nonce tag found before the instance type tag");
                     return;
@@ -168,6 +168,9 @@ namespace AskToPortal
                         break;
                     case "jp":
                         region = "Japan";
+                        break;
+                    case "use":
+                        region = "US-East";
                         break;
                     default:
                         errors.Add("Region tag exists, but value was not recognized");
