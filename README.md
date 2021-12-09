@@ -2,10 +2,13 @@
 
 These are mods that weren't being maintained anymore, gathered together.
 The hope with this repository is that as a community we could still maintain them.
+Scroll down to [the table of contents](#table-of-contents) for the list of mods.
 
 This repository was forked from Loukylor's mods after he stopped maintaining them.
-The intention of the name change is to make it clear that this project hopes to have multiple people maintaining it.
-Instead of this just a single person burning themselves out with the burden - all modders need to sleep at somepoint.
+The intention with the name change is to make it clear that this project hopes to have multiple people maintaining it instead of a single individual.
+It's also a tribute to all the modders who've helped make and maintain these mods but aren't not maintaining them anymore - even modders need to sleep eventually.
+Please go see [the credits](#credits) for the full list of people who've helped make this all possible!
+Or maybe even [get your name added](./CONTRIBUTING.md) to that list?
 
 ## Disclaimer<!-- omit in toc -->
 
@@ -279,9 +282,9 @@ There is some code that was originally licensed under GPL v3, however express pe
 
 ## Credits
 
-This is by no means everyone, but some attribution is better than none:
+Here is a long list of the awesome people who have helped make these mods a reality:
 
-- [Loukylor](https://github.com/loukylor) for a lot of things, as these mods were originally by them.
+- [Loukylor](https://github.com/loukylor) for being the original author of a tons of things here, as this repo was forked from his.
 - [knah](https://github.com/knah) for [Join Notifier's](https://github.com/knah/VRCMods) join/leave and asynchronous utilities.
 - [DubyaDude](https://github.com/DubyaDude) for [RubyButtonAPI](https://github.com/DubyaDude/RubyButtonAPI) as reference for the button API.
 - [Psychloor](https://github.com/Psychloor) for the risky functions check.
@@ -289,16 +292,17 @@ This is by no means everyone, but some attribution is better than none:
 - [dave-kun](https://github.com/dave-kun) for RememberMe & AvatarHider contributions.
 - [ImTiara](https://github.com/ImTiara) for the original version of AvatarHider
 - [KortyBoi](https://github.com/KortyBoi) for PlayerList's layout & help with getting some of the information.
-- Frostbyte for PlayerList optimization help
+- Frostbyte for contributing to PlayerList's optimizations
 - [HerpDerpinstine](https://github.com/HerpDerpinstine) for being the original author of RememberMe
 - [neitri](https://github.com/netri) for the ["Distance Face Outline" shader](https://github.com/netri/Neitri-Unity-Shaders) that was modified to create the TriggerESP shader.
 - Potato for PreviewScroller contributions.
 - [Sarayalth](https://github.com/Sarayalth) for VRCUtilityKit & UserInfoExtensions contributions.
-- [ljoonal](https://github.com/ljoonal) for various tiny modifications & cleanup/management work.
-- [Nirv](https://github.com/Nirv-git) for InstanceHistory (& UserHistory) contributions that have been merged from [their repository](https://github.com/Nirv-git/VRC-Mods).
+- [ljoonal](https://github.com/ljoonal) for various modifications, cleanup, and management.
+- [Nirv](https://github.com/Nirv-git) for InstanceHistory contributions that have been merged from [their repository](https://github.com/Nirv-git/VRC-Mods) and more.
 - [Adnezz](https://github.com/Adnezz) for PlayerHistory contributions that have been merged from [their repository](https://github.com/Adnezz/PlayerList)
 
-If you feel like the list is missing someone, do create a PR!
+The list would become too long to list everything, but it should hopefully cover at least the biggest contributions.
+If you notice that the list is missing someone or something, do create a PR!
 
 [VRCUKRequiredBadge]: https://img.shields.io/badge/VRCUK-Required-important?style=flat
 [VRCUKLink]: https://github.com/SleepyVRC/Mods/releases
