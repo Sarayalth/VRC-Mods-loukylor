@@ -301,6 +301,9 @@ Here is a long list of the awesome people who have helped make these mods a real
 - [Nirv](https://github.com/Nirv-git) for InstanceHistory contributions that have been merged from [their repository](https://github.com/Nirv-git/VRC-Mods) and more.
 - [Adnezz](https://github.com/Adnezz) for PlayerHistory contributions that have been merged from [their repository](https://github.com/Adnezz/PlayerList)
 
+In a way, it's what the "Sleepers" means as the author name.
+A reference to everyone who has contributed to these mods in one way or another.
+
 The list would become too long to list everything, but it should hopefully cover at least the biggest contributions.
 If you notice that the list is missing someone or something, do create a PR!
 
