@@ -26,6 +26,7 @@ namespace PreviewScroller
             scrollerContainerRect.localScale = Vector3.one;
             scrollerContainerRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 400);
             scrollerContainerRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 650);
+            scrollerContainerRect.SetAsFirstSibling();
 
             GameObject scrollerContent = new GameObject("ScrollerContent", new UnhollowerBaseLib.Il2CppReferenceArray<Il2CppSystem.Type>(new Il2CppSystem.Type[2] { Il2CppType.Of<Image>(), Il2CppType.Of<RectTransform>() }));
             RectTransform scrollerContentRect = scrollerContent.GetComponent<RectTransform>();
