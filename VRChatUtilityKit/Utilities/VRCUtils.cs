@@ -94,7 +94,14 @@ namespace VRChatUtilityKit.Utilities
         /// </summary>
         public static IUser ActiveUserInUserSelectMenu => _quickMenuInstance.field_Private_UIPage_1.gameObject.active ?
                                                               _quickMenuInstance.field_Private_UIPage_1.Cast<SelectedUserMenuQM>().field_Private_IUser_0 :
-                                                              _quickMenuInstance.field_Private_UIPage_2.gameObject.active ? _quickMenuInstance.field_Private_UIPage_2.Cast<SelectedUserMenuQM>().field_Private_IUser_0 : null;                                                                
+                                                              _quickMenuInstance.field_Private_UIPage_2.gameObject.active ? _quickMenuInstance.field_Private_UIPage_2.Cast<SelectedUserMenuQM>().field_Private_IUser_0 : null;
+
+        /// <summary>
+        /// Returns the active player in the user select menu.
+        /// </summary>
+        public static VRCPlayer ActivePlayerInUserSelectMenu => PlayerManager.field_Private_Static_PlayerManager_0.field_Private_List_1_Player_0.ToArray()
+                                                                .FirstOrDefault((Player player) => player.field_Private_APIUser_0 != null 
+                                                                && player.field_Private_APIUser_0.id == ActiveUserInUserSelectMenu.ToAPIUser().id)._vrcplayer;
 
         private static MethodInfo _loadAvatarMethod;
         private static MethodInfo _reloadAllAvatarsMethod;

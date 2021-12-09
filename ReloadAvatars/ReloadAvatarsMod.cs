@@ -30,7 +30,7 @@ namespace ReloadAvatars
             {
                 try
                 {
-                    VRCUtils.ReloadAvatar(VRCUtils.ActivePlayerInUserInfoMenu);
+                    VRCUtils.ReloadAvatar(VRCUtils.ActivePlayerInUserSelectMenu);
                 }
                 catch (Exception ex)
                 {
