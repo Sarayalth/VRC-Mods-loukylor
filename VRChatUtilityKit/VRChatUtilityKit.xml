@@ -1124,6 +1124,11 @@
             Returns the active user in the user select menu.
             </summary>
         </member>
+        <member name="P:VRChatUtilityKit.Utilities.VRCUtils.ActivePlayerInUserSelectMenu">
+            <summary>
+            Returns the active player in the user select menu.
+            </summary>
+        </member>
         <member name="M:VRChatUtilityKit.Utilities.VRCUtils.IsAvatarExplcitlyShown(VRC.Core.APIUser)">
             <summary>
             Returns whether the given user's avatar is explicity shown.
