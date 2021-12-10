@@ -297,7 +297,7 @@ Here is a long list of the awesome people who have helped make these mods a real
 - [HerpDerpinstine](https://github.com/HerpDerpinstine) for being the original author of RememberMe
 - [neitri](https://github.com/netri) for the ["Distance Face Outline" shader](https://github.com/netri/Neitri-Unity-Shaders) that was modified to create the TriggerESP shader.
 - Potato for PreviewScroller contributions.
-- [Sarayalth](https://github.com/Sarayalth) for VRCUtilityKit & UserInfoExtensions contributions.
+- [Sarayalth](https://github.com/Sarayalth) for a lot of contributions to many of the mods here.
 - [ljoonal](https://github.com/ljoonal) for various modifications, cleanup, and management.
 - [Nirv](https://github.com/Nirv-git) for InstanceHistory contributions that have been merged from [their repository](https://github.com/Nirv-git/VRC-Mods) and more.
 - [Adnezz](https://github.com/Adnezz) for PlayerHistory contributions that have been merged from [their repository](https://github.com/Adnezz/PlayerList)
