@@ -21,7 +21,10 @@ namespace SelectYourself
             selectYourselfPref.OnValueChangedUntyped += OnPrefChange;
 
             ExpansionKitApi.GetExpandedMenu(ExpandedMenu.QuickMenu).AddSimpleButton("Select Yourself",
-                new Action(() => UiManager.OpenUserInQuickMenu(Player.prop_Player_0.prop_APIUser_0)),
+                new Action(() => {
+                    UiManager.OpenQuickMenuPage("QuickMenuHere");
+                    UiManager.OpenUserInQuickMenu(Player.prop_Player_0.prop_APIUser_0);
+                }),
                 new Action<GameObject>((gameObject) => { selectYourselfButton = gameObject; OnPrefChange(); }));
         }
         public static void OnPrefChange()
