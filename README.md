@@ -6,7 +6,8 @@ Scroll down to [the table of contents](#table-of-contents) for the list of mods.
 
 This repository was forked from Loukylor's mods after he stopped maintaining them.
 The intention with the name change is to make it clear that this project hopes to have multiple people maintaining it instead of a single individual.
-It's also a tribute to all the modders who've helped make and maintain these mods but aren't not maintaining them anymore - even modders need to sleep eventually.
+It's also a tribute to all the modders who've helped make and maintain these mods but aren't maintaining them anymore - even modders need to sleep eventually.
+
 Please go see [the credits](#credits) for the full list of people who've helped make this all possible!
 Or maybe even [get your name added](./CONTRIBUTING.md) to that list?
 
