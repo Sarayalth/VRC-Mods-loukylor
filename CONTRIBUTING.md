@@ -37,5 +37,5 @@ It'd be appreciated if you:
 
 Ping or message @ljoonal.
 Access will be given to almost anyone with some track record of modding that is interested in helping out.
-After you've been added the the org, you can create your own branch or edit other branches.
+After you've been added to the org, you can create your own branch or edit other branches.
 The `main` branch has been protected to require reviewed PR's though.
