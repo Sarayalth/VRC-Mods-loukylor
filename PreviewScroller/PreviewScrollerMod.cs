@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using VRChatUtilityKit.Utilities;
 
-[assembly: MelonInfo(typeof(PreviewScroller.PreviewScrollerMod), "PreviewScroller", "1.0.2", "Sleepers", "https://github.com/SleepyVRC/Mods")]
+[assembly: MelonInfo(typeof(PreviewScroller.PreviewScrollerMod), "PreviewScroller", "1.0.3", "Sleepers", "https://github.com/SleepyVRC/Mods")]
 [assembly: MelonGame("VRChat", "VRChat")]
 
 namespace PreviewScroller
