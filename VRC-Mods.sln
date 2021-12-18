@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AskToPortal", "AskToPortal\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloningBeGone", "CloningBeGone\CloningBeGone.csproj", "{FFDCEEAA-A827-4729-AD90-1AA8D2B24F82}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerList", "PlayerList\PlayerList.csproj", "{49172F14-8AA3-42FC-A224-FD4A00C9AB4A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReloadAvatars", "ReloadAvatars\ReloadAvatars.csproj", "{3303D413-1113-4B06-B250-D83AC07F16C6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserInfoExtensions", "UserInfoExtensions\UserInfoExtensions.csproj", "{1427E621-2FE4-401F-BAFC-3C1607F4A4BA}"
