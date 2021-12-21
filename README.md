@@ -37,8 +37,6 @@ More detailed instructions and more mods can be found in the [VRChat Modding Gro
 - [AvatarHider](#avatarhider)
 - [ChairExitController](#chairexitcontroller)
 - [CloningBeGone](#cloningbegone)
-- [InstanceHistory](#instancehistory)
-- [PlayerList](#playerlist)
 - [PreviewScroller](#previewscroller)
 - [PrivateInstanceIcon](#privateinstanceicon)
 - [ReloadAvatars](#reloadavatars)
@@ -102,54 +100,6 @@ So for example, you can have cloning on in Invite+ worlds and off in all the oth
 
 You can also disable/enable cloning for a specific avatar. The buttons to control these can be toggled on and off.
 Keep in mind however, that this requires the use of UIX and will overwrite the instance type cloning.
-
-## InstanceHistory
-
-[![Requires VRChatUtilityKit][VRCUKRequiredBadge]][VRCUKLink]
-[![Optionally uses UIExpansionKit][UIXOptionalBadge]][UIXLink]
-
-Tracks and shows a history of the instances you've been to.
-
-It is highly recommended to use UIX because it's just easier.
-Although there are preferences to change the position of the regular button if you don't like UIX.
-
-## PlayerList
-
-[![Requires VRChatUtilityKit][VRCUKRequiredBadge]][VRCUKLink]
-
-Adds a player list to the QuickMenu.
-
-Each entry to the player list is a button that will open the user in the QuickMenu on click.
-The player's name will be colored to the rank they are (OGTrustRanks compatible!).
-Each entry also has the player's ping, fps, platform, avatar performance, distance from you, and number of owned objects.
-Note that the number of owned objects will be inaccurate in instances where you're alone and also when you first join an instance.
-You may also toggle each of these on and off.
-So, if you don't like how the avatar performance takes up space, you can turn it off.
-
-Note: distance from you will not be disabled in worlds that do not allow risky functions.
-
-There is also a list of info about the game and world you are in.
-It lists:
-
-- Time since joining the instance (Room Time)
-- System time in 12hr format and 24hr format
-- Game build number (Game Version)
-- Position in world (Coordinate Position)
-- World Name
-- World Author Name
-- Instance Master (The person who get the host glitch)
-- Instance Creator (The person who has moderation powers in the instance, only applicable to non-public instances)
-- Whether risky functions are allowed or not.
-
-And each of these can be individually toggled on or off.
-
-Now for more customizable things, you can change fontsize, the list's position (the QuickMenu hitbox will scale automatically), and the PlayerList button position.
-You can also change the color of the name, so instead of showing trust and friends, you could show friends only, or trust only, or just none.
-The list can also be numbered, or ticked and can be condensed so more stuff fits on one line.
-
-The list may also be turned off on startup, and can always be toggled on using `left ctrl + f1`
-
-![Picture of the List](https://i.imgur.com/jvfytTc.png)
 
 ## PreviewScroller
 
@@ -224,7 +174,7 @@ Note that it disables itself in worlds that don't allow risky functions.
 [![Optionally uses UIExpansionKit][UIXOptionalBadge]][UIXLink]
 
 Shows you when an user joined, and when clicking on them, opens when in the user page.
-It's basically a copy + paste of [InstanceHistory](#instancehistory).
+It's basically a copy + paste of [InstanceHistory](https://github.com/Nirv-git/VRC-Mods).
 
 It is highly recommended to use UIX because it's just easier, although there are preferences to change the position of the regular button if you don't like UIX.
 
@@ -299,8 +249,8 @@ Here is a long list of the awesome people who have helped make these mods a real
 - Potato for PreviewScroller contributions.
 - [Sarayalth](https://github.com/Sarayalth) for a lot of contributions to many of the mods here.
 - [ljoonal](https://github.com/ljoonal) for various modifications, cleanup, and management.
-- [Nirv](https://github.com/Nirv-git) for InstanceHistory contributions that have been merged from [their repository](https://github.com/Nirv-git/VRC-Mods) and more.
-- [Adnezz](https://github.com/Adnezz) for PlayerHistory contributions that have been merged from [their repository](https://github.com/Adnezz/PlayerList)
+- [Nirv](https://github.com/Nirv-git) for taking up maintaining InstanceHistory in [their repository](https://github.com/Nirv-git/VRC-Mods) and more.
+- [Adnezz](https://github.com/Adnezz) for taking up maintaining PlayerHistory in [their repository](https://github.com/Adnezz/PlayerList)
 
 In a way, it's what the "Sleepers" means as the author name.
 A reference to everyone who has contributed to these mods in one way or another.
