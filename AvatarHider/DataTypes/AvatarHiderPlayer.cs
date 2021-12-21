@@ -77,15 +77,14 @@ namespace AvatarHider.DataTypes
             if (avatar != null)
             {
                 this.avatar = avatar;
-                avatar.SetActive(false);
+                avatar.SetActive(true); // The ordering of these very weirdly can break some avatars.
+                active = false; // Do this so avatar sounds run on the first time
                 foreach (AudioSource audioSource in avatar.GetComponentsInChildren<AudioSource>(true))
                 {
                     audioSources.Add(audioSource);
                     if (Config.LimitAudioDistance.Value)
                         LimitAudioSource(audioSource);
                 }
-                avatar.SetActive(true);
-                active = false; // Do this so avatar sounds run on the first time
                 hasLetAudioPlay = false;
                 hasLimitedAudio = true;
             }
