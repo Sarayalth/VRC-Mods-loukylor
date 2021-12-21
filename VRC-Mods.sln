@@ -19,8 +19,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstanceHistory", "InstanceHistory\InstanceHistory.csproj", "{1DA36125-AA81-4222-83B9-A196ECE0233A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PreviewScroller", "PreviewScroller\PreviewScroller.csproj", "{19135271-DADE-4E05-B9A9-D02B843124E2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvatarHider", "AvatarHider\AvatarHider.csproj", "{8DBA35B7-5FD2-498F-9858-06577BDCF1A6}"
