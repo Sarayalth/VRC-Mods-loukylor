@@ -148,6 +148,7 @@ When "Remember Me" is checked off it will auto-fill the last saved VRChat Creden
 
 ## SelectYourself
 
+[![Requires VRChatUtilityKit][VRCUKRequiredBadge]][VRCUKLink]
 [![Requires UIExpansionKit][UIXRequiredBadge]][UIXLink]
 
 Adds a button that allows you to select yourself.
